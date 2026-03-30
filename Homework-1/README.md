@@ -1,6 +1,6 @@
 # Visual Recognition using Deep Learning - Homework 1
-**Student ID:** [109550202]  
-**Name:** [白詩愷]
+**Student ID:** 109550202
+**Name:** 白詩愷
 
 ## Introduction
 This project implements an Image Classification pipeline using **ResNet50**. To improve robustness and accuracy, I used a **Model Ensemble** approach combining three different training runs:
