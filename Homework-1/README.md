@@ -50,6 +50,6 @@ To reproduce the pipeline, run the scripts in the following order:
    python train_sgd.py
 
    python inference.py
-
+---
 ## Performance Snapshot
 ![Performance snapshot](snapshot.png)
