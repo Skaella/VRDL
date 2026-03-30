@@ -1,7 +1,7 @@
 # Visual Recognition using Deep Learning - Homework 1
 
 ## Introduction
-This project implements an Image Classification pipeline using **ResNet50** to solve Homework 1. To improve robustness and accuracy, I use a **Model Ensemble** approach combining three different training runs:
+This project implements an Image Classification pipeline using **ResNet50** to solve Homework 1. To improve robustness and accuracy, I used a **Model Ensemble** approach combining three different training runs:
 - **ResNet50 (Seed 0):** Optimized with Adam.
 - **ResNet50 (Seed 42):** Optimized with Adam to test weight initialization variance.
 - **ResNet50 (SGD):** Optimized using Stochastic Gradient Descent with momentum for better generalization.
