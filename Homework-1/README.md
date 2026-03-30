@@ -49,3 +49,6 @@ To reproduce the pipeline, run the scripts in the following order:
    python train_seed42.py
    python train_sgd.py
    python inference.py
+
+## Performance Snapshot
+![Model Training Accuracy](snapshot.png)
