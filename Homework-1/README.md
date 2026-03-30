@@ -51,4 +51,4 @@ To reproduce the pipeline, run the scripts in the following order:
    python inference.py
 
 ## Performance Snapshot
-![Model Training Accuracy](snapshot.png)
+![Performance snapshot](snapshot.png)
