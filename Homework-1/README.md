@@ -21,20 +21,3 @@ conda activate VRDL
 
 # Install dependencies
 pip install -r requirements.txt
-
-├── data/
-│   ├── train/
-│   ├── val/
-│   └── test/          
-├── utils.py            # Utility functions
-├── train_seed0.py      # Training script (Seed 0)
-├── train_seed42.py     # Training script (Seed 42)
-├── train_sgd.py        # Training script (SGD)
-└── inference.py        # Ensemble inference script
-
-python train_seed0.py
-python train_seed42.py
-python train_sgd.py
-python inference.py
-
-![Performance snapshot](snapshot.png)
