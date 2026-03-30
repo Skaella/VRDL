@@ -39,3 +39,13 @@ Required Directory Structure:
 ├── train_seed42.py     # Training script (Seed 42)
 ├── train_sgd.py        # Training script (SGD)
 └── inference.py        # Ensemble inference script
+
+**Usage
+To reproduce the pipeline, run the scripts in the following order:
+
+1. **Train Models:**
+   ```bash
+   python train_seed0.py
+   python train_seed42.py
+   python train_sgd.py
+   python inference.py
