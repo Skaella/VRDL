@@ -50,7 +50,9 @@ python train_sgd.py
 
 2. Ensemble Inference
 Once all three .pth files are generated, run the inference script.
-
 python inference.py
+
 Performance Snapshot
-![Performance Snapshot](Homework-1/snapshot.png)
+<p align="center">
+  <img src="Homework-1/snapshot.png" width="600"/>
+</p>
