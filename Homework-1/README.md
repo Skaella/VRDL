@@ -26,7 +26,6 @@ pip install -r requirements.txt
 Your local directory should be organized as follows to ensure the training scripts can find the dataset:
 bash```
 
-.
 ├── data/
 │   ├── train/         
 │   ├── val/            
@@ -38,20 +37,20 @@ bash```
 ├── inference.py        # Logit-averaging ensemble script
 └── requirements.txt    # List of dependencies
 
-Usage
-To reproduce the 89.33% accuracy result, follow these steps in order:
+#Usage
+Follow these steps in order:
 
-1. Model Training
+##1. Model Training
 Train each individual model. Each script will save its best weights.
 
-python train_seed0.py
-python train_seed42.py
-python train_sgd.py
+- **python train_seed0.py**
+- **python train_seed42.py**
+- **python train_sgd.py**
 
-2. Ensemble Inference
+##2. Ensemble Inference
 Once all three .pth files are generated, run the inference script.
 python inference.py
 
-Performance Snapshot
+#Performance Snapshot
 
-![Performance Snapshot](https://github.com/Skaella/VRDL/blob/main/Homework-1/snapshot.png)
+![Performance Snapshot](./snapshot.png)
