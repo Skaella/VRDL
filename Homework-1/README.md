@@ -53,6 +53,7 @@ Once all three .pth files are generated, run the inference script.
 python inference.py
 
 Performance Snapshot
+
 <p align="center">
-  <img src="Homework-1/snapshot.png" width="600"/>
+  <img src="snapshot.png" width="220" height="240" />
 </p>
