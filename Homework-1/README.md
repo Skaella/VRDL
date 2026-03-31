@@ -53,4 +53,4 @@ Once all three .pth files are generated, run the inference script.
 
 python inference.py
 Performance Snapshot
-![Performance Snapshot](PS/snapshot.png)
+![Performance Snapshot](Homework-1/snapshot.png)
