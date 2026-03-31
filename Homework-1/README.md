@@ -52,3 +52,5 @@ python train_sgd.py
 Once all three .pth files are generated, run the inference script.
 
 python inference.py
+Performance Snapshot
+<img width="921" height="79" alt="snapshot" src="https://github.com/user-attachments/assets/ae35e2cc-6951-44a2-8876-8f65cfa28798" />
