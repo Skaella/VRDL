@@ -54,6 +54,4 @@ python inference.py
 
 Performance Snapshot
 
-<p align="center">
-  <img src="snapshot.png" width="220" height="240" />
-</p>
+![Performance Snapshot](https://github.com/Skaella/VRDL/blob/main/Homework-1/snapshot.png)
