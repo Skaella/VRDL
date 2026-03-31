@@ -24,8 +24,8 @@ pip install -r requirements.txt
 
 ## Required Directory Structure
 Your local directory should be organized as follows to ensure the training scripts can find the dataset:
+bash```
 
-```text
 .
 ├── data/
 │   ├── train/         
