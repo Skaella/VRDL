@@ -1,6 +1,7 @@
 # Visual Recognition using Deep Learning - Homework 1
 
 **Student ID:** 109550202
+
 **Name:** 白詩愷
 
 ## Introduction
@@ -28,7 +29,7 @@ pip install -r requirements.txt
 ```
 
 ## Required Directory Structure
-
+```text
 Your local directory should be organized as follows to ensure the training scripts can find the dataset:
 
 ├── data/
@@ -41,6 +42,7 @@ Your local directory should be organized as follows to ensure the training scrip
 ├── train_sgd.py        # ResNet50 + SGD + Momentum
 ├── inference.py        # Logit-averaging ensemble script
 └── requirements.txt    # List of dependencies
+```
 
 ## Usage
 
@@ -49,6 +51,7 @@ Follow these steps in order:
 ## 1. Model Training
 
 Train each individual model. Each script will save its best weights.
+
 - **python train_seed0.py**
 - **python train_seed42.py**
 - **python train_sgd.py**
@@ -56,7 +59,8 @@ Train each individual model. Each script will save its best weights.
 ## 2. Ensemble Inference
 
 Once all three .pth files are generated, run the inference script.
-python inference.py
+
+- **python inference.py**
 
 ## Performance Snapshot
 
