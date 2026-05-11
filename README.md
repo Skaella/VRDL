@@ -4,3 +4,4 @@
 ## Assignments
 - [HW1: Image Classification](/Homework-1)
 - [HW2: Object Detection](/Homework-2)
+- [HW3: Instance Segmentation](/Homework-3)
