@@ -12,7 +12,7 @@ This project implements an Instance Segmentation pipeline for medical cell image
 
 -Recall Optimization: Implementing a confidence threshold of 0.05 to capture dense cellular clusters.
 
--Automated Data Pipeline: A robust TIFF-to-Polygon conversion script with a 10% validation split for metric monitoring.
+-Automated Data Pipeline: A robust TIFF-to-Polygon conversion script.
 
 
 ## Environment Setup
