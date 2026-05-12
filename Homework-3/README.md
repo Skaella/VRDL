@@ -8,7 +8,9 @@
 
 This project implements an Instance Segmentation pipeline for medical cell images using **YOLOv8m-seg**. To achieve high accuracy on small-scale biological structures, I focused on:
 -High-Resolution Inference: Using imgsz=1024 to prevent information loss for tiny cells.
+
 -Recall Optimization: Implementing a confidence threshold of 0.05 to capture dense cellular clusters.
+
 -Automated Data Pipeline: A robust TIF-to-Polygon conversion script with a 10% validation split for metric monitoring.
 
 
