@@ -53,7 +53,7 @@ def main():
     root_dir = args.input_dir
     out_dir = args.output_dir
 
-    # Create YOLO structure (Train and Val)
+    # Create YOLO structure
     for split in ["train", "val"]:
         os.makedirs(os.path.join(out_dir, "images", split), exist_ok=True)
         os.makedirs(os.path.join(out_dir, "labels", split), exist_ok=True)
