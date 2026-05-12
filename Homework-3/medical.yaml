@@ -1,0 +1,10 @@
+# medical.yaml
+path: ./yolo_dataset  # The dot means "look in the current directory"
+train: images/train
+val: images/train
+# Classes
+names:
+  0: class1
+  1: class2
+  2: class3
+  3: class4
