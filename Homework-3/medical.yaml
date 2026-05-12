@@ -1,7 +1,7 @@
 # medical.yaml
 path: ./yolo_dataset  
 train: images/train
-val: images/train
+val: images/val
 # Classes
 names:
   0: class1
