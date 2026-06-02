@@ -61,9 +61,6 @@ Train the PromptIR model on the provided dataset. Weights will be saved to check
 Generate the restored images and the pred.npz file CodaBench submission:
 
 - **python inference.py**
-  
-## 3. Visuals
-Generate training curves and side-by-side [Degraded | Restored] comparisons for the final report:
 
 - **python utils.py** 
 
