@@ -52,19 +52,20 @@ Organize your directory as follows:
 
 Follow these steps in order:
 
-## 1. Data Preparation
+## 1. Model Training
+Train the PromptIR model on the provided dataset. Weights will be saved to checkpoints/promptir_best.pth
 
-Convert the raw medical TIFF masks into normalized YOLO polygons:
-
-- **python dataloader.py**
-
-## 2. Model Training
-Train the baseline model. Weights will be saved to runs/yolo_medical_run/:
-
-## 3. Inference
-Generate the COCO-format test-results.json for CodaBench submission:
+- **python train.py**
+  
+## 2. Inference
+Generate the restored images and the pred.npz file CodaBench submission:
 
 - **python inference.py**
+  
+## 3. Visuals
+Generate training curves and side-by-side [Degraded | Restored] comparisons for the final report:
+
+- **python utils.py** 
 
 ## Performance Snapshot
 
