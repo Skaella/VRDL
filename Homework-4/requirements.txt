@@ -1,8 +1,12 @@
-torch
+# DL
+torch>=2.0.0
 torchvision
+einops
+tqdm
+
+# IP 
 numpy
 opencv-python
 matplotlib
-tqdm
-einops
 Pillow
+pyyaml
