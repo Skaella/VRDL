@@ -22,7 +22,7 @@ class DualDegradationDataset(Dataset):
             self.clean_dir = os.path.join(root_dir, 'train', 'clean')
             self.degraded_dir = os.path.join(root_dir, 'train', 'degraded')
 
-            # Create pairs of degraded and clean images
+            # Create degraded and clean images (2)
             rain_degraded = sorted(
                 glob.glob(
                     os.path.join(
