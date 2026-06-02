@@ -62,7 +62,6 @@ Generate the restored images and the pred.npz file CodaBench submission:
 
 - **python inference.py**
 
-- **python utils.py** 
 
 ## Performance Snapshot
 
