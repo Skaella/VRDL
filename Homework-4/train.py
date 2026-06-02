@@ -117,7 +117,7 @@ def train():
             best_ckpt_path = os.path.join(args.ckpt_dir, "promptir_best.pth")
             torch.save(model.state_dict(), best_ckpt_path)
             print(
-                f"🌟 New Best Model Saved! Highest Val PSNR: {best_val_psnr:.2f} dB")
+                f"New Best Model Saved! Highest Val PSNR: {best_val_psnr:.2f} dB")
 
         # Periodic Save
         if (epoch + 1) % 10 == 0:
