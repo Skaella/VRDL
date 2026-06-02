@@ -10,11 +10,11 @@
 This project implements an Image Restoration pipeline using PromptIR. The goal is to restore high-quality images from degraded inputs (rain/snow noise) by leveraging prompt-based learning. 
 Key focus areas include:
 
--Metric Optimization: Achieved a PSNR of 30.12 dB on the test set.
+-Prompt-Based Restoration: We leveraged the *PromptIR* architecture to help the model adapt to different types of degradations (rain vs. snow) using learnable prompt embeddings.
 
--Normalization Strategy: Implemented robust min-max scaling and un-normalization to ensure visual fidelity during inference.
+-Hierarchical Feature Integration: The model uses a multi-level encoder-decoder structure that integrates features at different scales, which really helped in keeping the image details sharp while cleaning up the noise.
 
--Qualitative Verification: Developed automated scripts to generate side-by-side [Before | After | Ground Truth] comparisons.
+-Modular Pipeline Design: We built a streamlined pipeline where dataloader.py, train.py, and inference.py are modular, making the whole training-to-submission process reproducible and easy to follow.
 
 
 ## Environment Setup
